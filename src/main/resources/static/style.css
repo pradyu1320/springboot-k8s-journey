@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2937;
+    background: linear-gradient(135deg, #e0f2fe, #eef2ff);
+}
+
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.greeting-card {
+    width: 100%;
+    max-width: 520px;
+    padding: 42px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 20px 50px rgba(30, 64, 175, 0.15);
+    text-align: center;
+}
+
+.project-label {
+    margin-bottom: 12px;
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+h1 {
+    margin: 0 0 16px;
+    font-size: 32px;
+    line-height: 1.25;
+}
+
+.description,
+.welcome-message {
+    margin-bottom: 28px;
+    color: #6b7280;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 9px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+button,
+.back-button {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 9px;
+    color: #ffffff;
+    background-color: #2563eb;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover,
+.back-button:hover {
+    background-color: #1d4ed8;
+}
+
+.user-name {
+    color: #2563eb;
+}
+
+.error-message {
+    margin: 10px 0 0;
+    color: #dc2626;
+    font-size: 14px;
+}
